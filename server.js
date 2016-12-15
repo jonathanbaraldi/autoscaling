@@ -75,6 +75,7 @@ app.get('/',function(req,res){
 	};
 	data["Data"] = "Welcome to BrCloud's API";
 	res.json(data);
+	res.end();
 	console.log(data);
 	console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 });
